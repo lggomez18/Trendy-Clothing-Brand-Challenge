@@ -20,6 +20,13 @@
         font-size: 25px;
             }
 
+       .navbar img{
+        width:120px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+       }
+
        
 
         .banner{
@@ -35,6 +42,11 @@
             padding-top:325px;
             padding-left: 575px;
             color:aliceblue;
+        }
+
+        .small-container{
+          background: lightgoldenrodyellow;
+        padding:20px;
         }
 
         .about-us{
@@ -93,11 +105,11 @@
 </head>
 
 <body>
+
     <div class="navbar">
       <div class="logo">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/548/original/altra_logo.png?1710711416" width="80vh">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/548/original/altra_logo.png?1710711416">
       </div>
-    </div>
     <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">New arrivals</a>
@@ -118,10 +130,14 @@
         <i class="bi bi-bag-heart"></i>
         </li>
       </ul>
+    </div>
+
     
       <div class="banner">
       <h1 class="banner-text">Donde los  Sueños Empiezan</h1>
       </div>
+
+  
 
       <div class="alert alert-warning text-center" role="alert">
         WINTER SALE 75% OFF! Hurry up! <br />
@@ -159,6 +175,29 @@
         </div>
       </div>
     </section> 
+
+    <!--featured products-->
+    <div class="small-container justify-content-center">
+      <h2>Featured products</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/496/original/altra_running_about_us1.jpeg?1708796862">
+          <h6 class="pt-3">Hiking Boots Forest-Kids</h6>
+          <h7>$50</h7>
+        </div>
+
+        <div class="col-sm-4">
+          <p>Our shoes are made of 45% recycled material.</ br>
+          We buy your shoes back to reduce our waste impact.</p>
+        </div>
+
+          <div class="col-sm-4">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/496/original/altra_running_about_us1.jpeg?1708796862">
+            <h6 class="pt-3">Speed Walking Boots-Women</h6>
+            <h7>$150</h7>
+        </div>
+      </div>
+    </div>
 
     <footer>
       Coded by Leticia Gmx 💻 open-sourced Github.
